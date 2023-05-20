@@ -17,7 +17,6 @@ For educational purposes only.
 - Glide
 - Retrofit
 - Lottie
-- ImageSlider
 - RecyclerViewDecorator
 - Material Design 3
 ------------------------------------------
