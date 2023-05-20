@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="130dp"
+        app:cardCornerRadius="65dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_height="130dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ImageView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/companyName"
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/avenir_regular"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+</LinearLayout>

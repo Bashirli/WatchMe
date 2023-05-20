@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/themeColor"
+    android:layout_height="wrap_content"
+    android:padding="14dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        style="@style/CustomTextInputStyle"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:hint="@string/email"
+            android:textColor="@color/white"
+            android:id="@+id/email"
+            android:inputType="none"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        style="@style/CustomTextInputStyle"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:hint="@string/nickname"
+            android:id="@+id/nickname"
+            android:textColor="@color/white"
+
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:id="@+id/update"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="@color/buttonColor"
+        android:stateListAnimator="@null"
+        android:elevation="5dp"
+        app:rippleColor="@color/themeColor"
+        android:text="@string/update"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.button.MaterialButton>
+
+</LinearLayout>

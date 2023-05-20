@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:background="@color/themeColor"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        android:text="@string/resetInfo"
+        android:textSize="23sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/avenir_bold"
+        android:layout_height="wrap_content">
+
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        style="@style/CustomTextInputStyle"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/emailText"
+            android:hint="@string/email"
+            android:layout_gravity="center"
+            android:textColorHint="@color/white"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSendCode"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/buttonColor"
+        android:gravity="center"
+        app:rippleColor="@color/themeColor"
+        android:stateListAnimator="@null"
+        android:elevation="4dp"
+        android:text="@string/sendResetCode"
+        android:layout_height="wrap_content">
+
+
+    </com.google.android.material.button.MaterialButton>
+
+
+</LinearLayout>

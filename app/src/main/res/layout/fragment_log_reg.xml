@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeColor"
+    tools:context=".ui.fragment.profile.logreg.LogRegFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_max="300dp"
+        app:layout_constraintWidth_min="150dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:transitionName="loginButton"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/white"
+            android:stateListAnimator="@null"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:id="@+id/buttonLogin"
+            android:backgroundTint="@color/buttonColor"
+            android:elevation="3dp"
+            android:fontFamily="@font/avenir_bold"
+            android:paddingLeft="50dp"
+            android:paddingTop="15dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="15dp"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:rippleColor="@color/themeColor">
+
+        </com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/buttonRegister"
+            android:transitionName="registerButton"
+            android:stateListAnimator="@null"
+            android:layout_margin="3dp"
+            android:backgroundTint="@color/buttonColor"
+            android:elevation="3dp"
+            android:fontFamily="@font/avenir_bold"
+            android:paddingLeft="50dp"
+            android:paddingTop="15dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="15dp"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+
+            app:rippleColor="@color/themeColor">
+
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeText"
+        android:textColor="@color/white"
+        android:fontFamily="@font/avenir_bold"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9">
+
+    </androidx.constraintlayout.widget.Guideline>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.Button.TextButton"
+        android:id="@+id/buttonGuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textButtonColor"
+        app:rippleColor="@color/buttonColor"
+        android:fontFamily="@font/avenir_regular"
+        android:textSize="19sp"
+        android:text="@string/contAsAGuest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline">
+
+
+    </com.google.android.material.button.MaterialButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
