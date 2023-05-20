@@ -1,6 +1,5 @@
 # WatchMe
-![Group 5](https://github.com/Bashirli/WatchMe/assets/109737647/0810cc79-de30-4735-9d47-caec50475dcf)
-
+![Group 5](https://github.com/Bashirli/WatchMe/assets/109737647/08fa283c-3dcf-49ac-9341-c1e5cede7c3a)
 ----------------------------------------
  API is from The Movie DB.
 For educational purposes only.
@@ -24,6 +23,7 @@ For educational purposes only.
 ------------------------------------------
 App screens:
 ------------------------------------------
-![Group 2](https://github.com/Bashirli/WatchMe/assets/109737647/8cf9bf57-f0f5-4f53-8cd2-1c7bcbcba463)
-![Group 3](https://github.com/Bashirli/WatchMe/assets/109737647/d4924eff-3f43-4ae5-ab0e-3261e500baa0)
-![Group 4](https://github.com/Bashirli/WatchMe/assets/109737647/241e0e80-382f-4911-81e9-09ab37081770)
+![Group 2](https://github.com/Bashirli/WatchMe/assets/109737647/5b9b68d7-b555-41d3-aa0d-a2d464d9f362)
+![Group 3](https://github.com/Bashirli/WatchMe/assets/109737647/24cac41d-13bf-493e-be29-8ce64680e0b8)
+![Group 4](https://github.com/Bashirli/WatchMe/assets/109737647/358c8823-02c7-4931-9bd3-729341189b15)
+
